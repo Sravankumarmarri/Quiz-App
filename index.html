@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Sravan's Fun Quiz App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to Sravan's Quiz App!</h1>
+    </div>
+
+    <div class="quiz-container">
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
+    </div>
+
+    <div id="result-container" class="result-container hide">
+      <h2>Your Results</h2>
+      <div id="score"></div>
+      <div id="comment"></div>
+      <button id="restart-btn" class="btn">Restart</button>
+    </div>
+  </div>
+</body>
+</html>
